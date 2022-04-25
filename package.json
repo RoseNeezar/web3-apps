@@ -1,12 +1,12 @@
 {
-  "name": "@crypto/root",
+  "name": "@web3/root",
   "private": true,
   "scripts": {
-    "start": "lerna run --scope @crypto/* --parallel start",
-    "build": "lerna run --scope @crypto/* --parallel build",
-    "serve": "lerna run --scope @crypto/* --parallel serve",
-    "clean": "lerna run --scope @crypto/* --parallel clean",
-    "lint": "lerna run --scope @crypto/* lint",
+    "start": "lerna run --scope @web3/* --parallel dev",
+    "build": "lerna run --scope @web3/* --parallel build",
+    "serve": "lerna run --scope @web3/* --parallel serve",
+    "clean": "lerna run --scope @web3/* --parallel clean",
+    "lint": "lerna run --scope @web3/* lint",
     "bootstrap": "lerna bootstrap --ignore-scripts"
   },
   "devDependencies": {
